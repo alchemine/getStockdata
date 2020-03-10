@@ -35,7 +35,7 @@ class DataLoader:
 
         status = self.obj_StockChart.GetDibStatus()
         cnt = self.obj_StockChart.GetHeaderValue(3)  # 수신개수
-
+    
         if status != 0:
             msg = self.obj_StockChart.GetDibMsg1()
             print("통신상태: {} {}".format(status, msg))
@@ -61,4 +61,5 @@ class DataLoader:
 
         state = self.obj_StockChart.GetHeaderValue(17)  # 종목상태
         rst['종목상태'] = chr(state)
+        rst['대비부호'] = rst['대비부호'].map(lambda x: chr(x))
         return rst

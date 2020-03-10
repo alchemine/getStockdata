@@ -1,3 +1,6 @@
+# https://money2.creontrade.com/e5/mboard/ptype_basic/HTS_Plus_Helper/DW_Basic_Read_Page.aspx?boardseq=284&seq=102&page=1&searchString=CpSysDib.StockChart&p=8841&v=8643&m=9505 참조
+
+
 from env import *
 from DataLoader_day import DataLoader
 
@@ -9,7 +12,7 @@ if __name__ == "__main__":
 
     # 2. 종목코드 얻기
     list_code = pd.read_csv(CODENAME_PATH, encoding='cp949')['code']
-    # list_code = ['036570']  # For test
+    list_code = ['036570']  # For test
 
 
     # 3. 받아오기

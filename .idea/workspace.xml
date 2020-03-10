@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e089e40b-bca5-4745-8422-9ddb968d36cb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/get_data/creon_codes/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_data/creon_codes/env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/get_data" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YvUTt31DkiVSPRbN8DL9FufE7H" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -65,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583822572074</updated>
       <workItem from="1583822592872" duration="179000" />
-      <workItem from="1583822795630" duration="231000" />
+      <workItem from="1583822795630" duration="2482000" />
     </task>
     <servers />
   </component>
@@ -81,28 +82,28 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2605" y="282" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583822854346" />
-    <state width="1686" height="282" key="GridCell.Tab.0.bottom" timestamp="1583822771919">
+    <state width="1877" height="378" key="GridCell.Tab.0.bottom" timestamp="1583825817539">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1686" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583822771919" />
-    <state width="1686" height="282" key="GridCell.Tab.0.center" timestamp="1583822771919">
+    <state width="1877" height="378" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583825817539" />
+    <state width="1877" height="378" key="GridCell.Tab.0.center" timestamp="1583825817539">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1686" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583822771919" />
-    <state width="1686" height="282" key="GridCell.Tab.0.left" timestamp="1583822771919">
+    <state width="1877" height="378" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583825817539" />
+    <state width="1877" height="378" key="GridCell.Tab.0.left" timestamp="1583825817539">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1686" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583822771919" />
-    <state width="1686" height="282" key="GridCell.Tab.0.right" timestamp="1583822771919">
+    <state width="1877" height="378" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583825817539" />
+    <state width="1877" height="378" key="GridCell.Tab.0.right" timestamp="1583825817539">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1686" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583822771919" />
+    <state width="1877" height="378" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583825817539" />
     <state x="2327" y="169" key="SettingsEditor" timestamp="1583822872847">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2327" y="169" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583822872847" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/stock$get_stock_day.coverage" NAME="get_stock_day Coverage Results" MODIFIED="1583823015944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/get_data/creon_codes" />
+    <SUITE FILE_PATH="coverage/stock$get_stock_day.coverage" NAME="get_stock_day Coverage Results" MODIFIED="1583825800858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/get_data/creon_codes" />
   </component>
 </project>
