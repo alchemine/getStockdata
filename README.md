@@ -5,4 +5,7 @@ $ python get_stock_day.py
 ```
 
 # TODO
-## minute, tick data
+```
+$ python get_stock_minute.py
+$ python get_stock_tick.py
+```
