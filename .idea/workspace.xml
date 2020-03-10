@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e089e40b-bca5-4745-8422-9ddb968d36cb" name="Default Changelist" comment="" />
+    <list default="true" id="e089e40b-bca5-4745-8422-9ddb968d36cb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +25,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.macro">
     <configuration name="get_stock_day" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="stock" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -46,8 +48,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="macro" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="stock" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/get_data/creon_codes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_data/creon_codes/macro.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.macro" />
         <item itemvalue="Python.get_stock_day" />
       </list>
     </recent_temporary>
@@ -63,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583822572074</updated>
       <workItem from="1583822592872" duration="179000" />
-      <workItem from="1583822795630" duration="3807000" />
+      <workItem from="1583822795630" duration="5695000" />
     </task>
     <servers />
   </component>
@@ -79,28 +104,29 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2605" y="282" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583822854346" />
-    <state width="1877" height="378" key="GridCell.Tab.0.bottom" timestamp="1583825817539">
+    <state width="1877" height="270" key="GridCell.Tab.0.bottom" timestamp="1583835284174">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="378" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583825817539" />
-    <state width="1877" height="378" key="GridCell.Tab.0.center" timestamp="1583825817539">
+    <state width="1877" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583835284174" />
+    <state width="1877" height="270" key="GridCell.Tab.0.center" timestamp="1583835284174">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="378" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583825817539" />
-    <state width="1877" height="378" key="GridCell.Tab.0.left" timestamp="1583825817539">
+    <state width="1877" height="270" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583835284174" />
+    <state width="1877" height="270" key="GridCell.Tab.0.left" timestamp="1583835284174">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="378" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583825817539" />
-    <state width="1877" height="378" key="GridCell.Tab.0.right" timestamp="1583825817539">
+    <state width="1877" height="270" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583835284174" />
+    <state width="1877" height="270" key="GridCell.Tab.0.right" timestamp="1583835284174">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="378" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583825817539" />
+    <state width="1877" height="270" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583835284174" />
     <state x="2327" y="169" key="SettingsEditor" timestamp="1583822872847">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2327" y="169" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583822872847" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/stock$get_stock_day.coverage" NAME="get_stock_day Coverage Results" MODIFIED="1583825800858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/get_data/creon_codes" />
+    <SUITE FILE_PATH="coverage/stock$macro.coverage" NAME="macro Coverage Results" MODIFIED="1583833365395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/get_data/creon_codes" />
+    <SUITE FILE_PATH="coverage/stock$get_stock_day.coverage" NAME="get_stock_day Coverage Results" MODIFIED="1583833350714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/get_data/creon_codes" />
   </component>
 </project>

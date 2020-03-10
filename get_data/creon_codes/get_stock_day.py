@@ -12,7 +12,7 @@ if __name__ == "__main__":
 
     # 2. 종목코드 얻기
     list_code = pd.read_csv(CODENAME_PATH, encoding='cp949')['code']
-    list_code = ['036570']  # For test
+    # list_code = ['036570']  # For test
 
 
     # 3. 받아오기
