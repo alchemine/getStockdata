@@ -11,4 +11,4 @@ def click(x, y):
 
 while True:
     click(1124, 612)  # 클릭 위치
-    time.sleep(30)    # 클릭 간격
+    time.sleep(10)    # 클릭 간격

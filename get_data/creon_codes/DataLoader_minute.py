@@ -25,11 +25,12 @@ class DataLoader:
                            '누적체결매수수량', '시가총액', '외국인현보유비율', '거래성립률', '대비부호']
 
         self.obj_StockChart.SetInputValue(0, code)
-        self.obj_StockChart.SetInputValue(1, ord('1'))
+        self.obj_StockChart.SetInputValue(1, ord('1'))  # '1' for day '2' for else
         self.obj_StockChart.SetInputValue(2, end)
         self.obj_StockChart.SetInputValue(3, start)
         self.obj_StockChart.SetInputValue(5, list_field_key)
         self.obj_StockChart.SetInputValue(6, ord(unit))
+        self.obj_StockChart.SetInputValue(7, 1)  # 주기
         self.obj_StockChart.SetInputValue(9, ord('1'))  # 수정주가
         self.obj_StockChart.BlockRequest()  # 설정에 따라 데이터를 요청
 
@@ -65,40 +66,35 @@ class DataLoader:
         return rst
 
 
-def next_time(df, unit, abnormal=False):
+def next_time(df, unit):
     start, end = df.iloc[-1]['날짜'], df.iloc[0]['날짜']
 
-    if abnormal is False:
-        # int → datetime
-        start, end = dt.datetime.strptime(str(start), '%Y-%m-%d'), dt.datetime.strptime(str(end), '%Y-%m-%d')
+    # int → datetime
+    start, end = dt.datetime.strptime(str(start), '%Y-%m-%d'), dt.datetime.strptime(str(end), '%Y-%m-%d')
+    end = start
 
-        # delta
-        if unit == 'D':
-            start, end = start - relativedelta(years=5), start
-        #TODO
-        # minute, ...
-    else:
-        # int → datetime
-        start, end = dt.datetime.strptime(str(start), '%Y%m%d'), dt.datetime.strptime(str(end), '%Y%m%d')
+    # delta
+    # if unit == 'D':
+    #     start, end = start - relativedelta(years=5), start
+    # elif unit == "m":
+    #     start, end = start - relativedelta(days=2), start  # days=1 ?
 
-        # delta
-        if unit == 'D':
-            end -= relativedelta(years=5)
-            start = end - relativedelta(years=5)
-        #TODO
-        # minute, ...
-
-    # datetime → int
-    start, end = '19000101', end.strftime('%Y%m%d')
+    start, end = START_DAY, end.strftime('%Y%m%d')  # start.strftime('%Y%m%d'), end.strftime('%Y%m%d')
     return start, end
+
+
+def generate_csv(df, code, unit):
+    start, end = df.iloc[-1]['날짜'], df.iloc[0]['날짜']
+    CSV_PATH = join(ROOT_DIR, full_name(unit), "{}({}~{}).csv".format(code, start, end))
+    df.to_csv(CSV_PATH, encoding='cp949', index=False)
 
 
 def merge_dataframes(df_list, code, unit):
     if len(df_list) == 0:
         return
 
-    # 1. List all csv files starting with 'code'
-    rst = pd.concat(df_list).drop_duplicates().sort_values(by=['날짜'], ascending=False)
+    # List all csv files starting with 'code'
+    rst = pd.concat(df_list).drop_duplicates()
     start, end = rst.iloc[-1]['날짜'], rst.iloc[0]['날짜']
     CSV_PATH = join(ROOT_DIR, full_name(unit), "{}({}~{}).csv".format(code, start, end))
     rst.to_csv(CSV_PATH, encoding='cp949', index=False)

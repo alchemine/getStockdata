@@ -5,15 +5,15 @@ Python 3.5 (32bit)에서 작동하는 코드로 다른 version에서는 동작�
 
 # Usage
 ```
-// Change the ROOT_DIR in env.py
+// Change the ROOT_DIR in creon_codes/env.py
 $ pip install -r requirements.txt
 $ cd creon_codes
 $ python get_stock_day.py
+$ python get_stock_minute.py
 ```
 
 
 # TODO
 ```
-$ python get_stock_minute.py
 $ python get_stock_tick.py
 ```
