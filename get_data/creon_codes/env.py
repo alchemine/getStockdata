@@ -9,8 +9,8 @@ from tqdm import tqdm
 
 
 # PATH
-ROOT_DIR = '..'
-CODENAME_PATH = join(ROOT_DIR, "codename(kospi,2020-03-09).csv")
+ROOT_DIR = "D:\data\stock"
+CODENAME_PATH = join("..", "codename(kospi,2020-03-09).csv")
 
 TODAY = dt.datetime.today().strftime('%Y%m%d')
 
