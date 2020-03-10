@@ -6,20 +6,24 @@ if __name__ == "__main__":
     # 1. 객체 생성 및 연결
     loader = DataLoader()
 
+
     # 2. 종목코드 얻기
     list_code = pd.read_csv(CODENAME_PATH, encoding='cp949')['code']
     # list_code = ['036570']  # For test
 
+
     # 3. 받아오기
+    unit = 'D'
+    UNIT_DIR = join(ROOT_DIR, full_name(unit))
+    os.makedirs(UNIT_DIR, exist_ok=True)
     for code in tqdm(list_code):
+        if len([i for i in os.listdir(UNIT_DIR) if i.startswith(code)]) > 0:
+            continue
+
         param = {'code': 'A'+code,  # A036570 (stock)
                  'start': '19000101',
                  'end': '20200309',  # TODAY
-                 'unit': 'D'}
-
-        UNIT_DIR = join(ROOT_DIR, full_name(param['unit']))
-        if len([i for i in os.listdir(UNIT_DIR) if i.startswith(code)]) > 0:
-            continue
+                 'unit': unit}
 
         df_list = []
         while True:
