@@ -10,9 +10,6 @@ Python 3.5 (32bit)에서 작동하는 코드로 다른 version에서는 동작�
 // Change the ROOT_DIR in env.py
 $ pip install -r requirements.txt
 $ python get_stock.py --unit D
-$ python get_stock.py --unit m
+$ python get_stock.py --unit m  // 약 4시간 반 소요
+$ python get_stock.py --unit T  // 약 4시간 반 소요
 ```
-
-
-# TODO
-Tick data 구현

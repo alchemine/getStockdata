@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e089e40b-bca5-4745-8422-9ddb968d36cb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/stock.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -70,6 +64,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="macro (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="stock" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/get_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_data/macro.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="macro" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="stock" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,10 +111,12 @@
     <list>
       <item itemvalue="Python.get_stock" />
       <item itemvalue="Python.macro" />
+      <item itemvalue="Python.macro (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.get_stock" />
+        <item itemvalue="Python.macro (1)" />
         <item itemvalue="Python.macro" />
       </list>
     </recent_temporary>
@@ -116,7 +134,7 @@
       <workItem from="1583822592872" duration="179000" />
       <workItem from="1583822795630" duration="21949000" />
       <workItem from="1583890016596" duration="84000" />
-      <workItem from="1583890119620" duration="1094000" />
+      <workItem from="1583890119620" duration="7275000" />
     </task>
     <servers />
   </component>
@@ -140,46 +158,51 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2605" y="282" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583822854346" />
-    <state width="1877" height="216" key="GridCell.Tab.0.bottom" timestamp="1583891057940">
+    <state width="1877" height="223" key="GridCell.Tab.0.bottom" timestamp="1583978752633">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583891057940" />
-    <state width="1877" height="216" key="GridCell.Tab.0.center" timestamp="1583891057940">
+    <state width="1877" height="223" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583978752633" />
+    <state width="1877" height="223" key="GridCell.Tab.0.center" timestamp="1583978752633">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="216" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583891057940" />
-    <state width="1877" height="216" key="GridCell.Tab.0.left" timestamp="1583891057940">
+    <state width="1877" height="223" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583978752633" />
+    <state width="1877" height="223" key="GridCell.Tab.0.left" timestamp="1583978752633">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="216" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583891057940" />
-    <state width="1877" height="216" key="GridCell.Tab.0.right" timestamp="1583891057940">
+    <state width="1877" height="223" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583978752633" />
+    <state width="1877" height="223" key="GridCell.Tab.0.right" timestamp="1583978752633">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="216" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583891057940" />
-    <state width="1877" height="34" key="GridCell.Tab.1.bottom" timestamp="1583890686180">
+    <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583978752633" />
+    <state width="1877" height="165" key="GridCell.Tab.1.bottom" timestamp="1583976388454">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="34" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583890686180" />
-    <state width="1877" height="34" key="GridCell.Tab.1.center" timestamp="1583890686180">
+    <state width="1877" height="165" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583976388454" />
+    <state width="1877" height="165" key="GridCell.Tab.1.center" timestamp="1583976388453">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="34" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583890686180" />
-    <state width="1877" height="34" key="GridCell.Tab.1.left" timestamp="1583890686180">
+    <state width="1877" height="165" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583976388453" />
+    <state width="1877" height="165" key="GridCell.Tab.1.left" timestamp="1583976388453">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="34" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583890686180" />
-    <state width="1877" height="34" key="GridCell.Tab.1.right" timestamp="1583890686180">
+    <state width="1877" height="165" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583976388453" />
+    <state width="1877" height="165" key="GridCell.Tab.1.right" timestamp="1583976388453">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="34" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583890686180" />
+    <state width="1877" height="165" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583976388453" />
     <state x="2327" y="169" key="SettingsEditor" timestamp="1583890134854">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2327" y="169" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583890134854" />
+    <state x="2573" y="251" width="613" height="538" key="find.popup" timestamp="1583976543180">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2573" y="251" width="613" height="538" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583976543180" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/stock$macro__1_.coverage" NAME="macro (1) Coverage Results" MODIFIED="1583976249391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/get_data" />
     <SUITE FILE_PATH="coverage/stock$macro.coverage" NAME="macro Coverage Results" MODIFIED="1583860146034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/get_data/creon_codes" />
-    <SUITE FILE_PATH="coverage/stock$get_stock.coverage" NAME="get_stock Coverage Results" MODIFIED="1583890686164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/get_data" />
+    <SUITE FILE_PATH="coverage/stock$get_stock.coverage" NAME="get_stock Coverage Results" MODIFIED="1583977362562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/get_data" />
     <SUITE FILE_PATH="coverage/stock$get_stock_day.coverage" NAME="get_stock_day Coverage Results" MODIFIED="1583853486256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/get_data/creon_codes" />
     <SUITE FILE_PATH="coverage/stock$get_stock_minute.coverage" NAME="get_stock Coverage Results" MODIFIED="1583889332192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/get_data/creon_codes" />
   </component>

@@ -5,9 +5,9 @@ from env import *
 from DataLoader import *
 
 parser = ArgumentParser(description='unit, start, end')
-parser.add_argument('--unit', type=str, default='m')         # 'D', 'm', 'T'
-parser.add_argument('--start', type=str, default=START_DAY)  # yyyymmdd
-parser.add_argument('--end', type=str, default='20200309')   # yyyymmdd
+parser.add_argument('--unit', type=str, default='T')         # 'D', 'm', 'T'
+parser.add_argument('--start', type=str, default='19000101')  # yyyymmdd
+parser.add_argument('--end', type=str, default='20200311')   # yyyymmdd
 
 
 if __name__ == "__main__":
@@ -17,7 +17,7 @@ if __name__ == "__main__":
 
     # 1. 종목코드 얻기
     list_code = pd.read_csv(CODENAME_PATH, encoding='cp949')['code']
-    list_code = ['000020']  # For test
+    # list_code = ['000020']  # For test
 
 
     # 2. 객체 생성 및 연결
@@ -34,10 +34,11 @@ if __name__ == "__main__":
 
         param = {'code': 'A'+code,  # A036570 (stock)
                  'start': args.start,
-                 'end': args.end,  # TODAY
+                 'end': args.end,
                  'unit': unit}
 
         df_list = []
+        last_end = None
         while True:
             df = loader.load(**param)
 
@@ -53,8 +54,10 @@ if __name__ == "__main__":
                     break
 
             df_list.append(df)
-            if len(df) < 500:  # 마지막으로 받아올 수 있는 데이터인 경우,
+            if last_end == param['end']:  # 마지막으로 받아올 수 있는 데이터인 경우,
                 break
+            else:
+                last_end = param['end']
 
             param['start'], param['end'] = next_time(df, args.start)
         merge_dataframes(df_list, code, param['unit'])

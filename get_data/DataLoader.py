@@ -36,7 +36,7 @@ class DataLoader:
 
     def load(self, code, start, end, unit):
         self.obj_StockChart.SetInputValue(0, code)
-        self.obj_StockChart.SetInputValue(1, ord('1'))  # '1' for day '2' for else
+        self.obj_StockChart.SetInputValue(1, ord('1'))  # '1' for day, minute '2' for else
         self.obj_StockChart.SetInputValue(2, end)
         self.obj_StockChart.SetInputValue(3, start)
         self.obj_StockChart.SetInputValue(5, self.list_field_key)

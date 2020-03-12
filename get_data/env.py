@@ -12,9 +12,7 @@ import pandas as pd
 ROOT_DIR = "D:/data/stock"
 CODENAME_PATH = join("stockcode", "stockcode(kospi,2020-03-09).csv")
 
-
-TODAY = dt.datetime.today().strftime('%Y%m%d')
-START_DAY = '19000101'
+# TODAY = dt.datetime.today().strftime('%Y%m%d')
 
 
 def check_privilege():
