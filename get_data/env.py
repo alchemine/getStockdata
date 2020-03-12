@@ -9,7 +9,6 @@ import pandas as pd
 
 
 # PATH
-ROOT_DIR = "D:/data/stock"
 CODENAME_PATH = join("stockcode", "stockcode(kospi,2020-03-09).csv")
 
 # TODAY = dt.datetime.today().strftime('%Y%m%d')
@@ -35,12 +34,12 @@ def next_time(df, start_day):
     return start, end
 
 
-def merge_dataframes(df_list, code, unit):
+def merge_dataframes(df_list, code, unit, save_dir):
     if len(df_list) == 0:
         return
 
     # List all csv files starting with 'code'
     rst = pd.concat(df_list).drop_duplicates()
     start, end = rst.iloc[-1]['날짜'], rst.iloc[0]['날짜']
-    CSV_PATH = join(ROOT_DIR, full_name(unit), "{}({}~{}).csv".format(code, start, end))
+    CSV_PATH = join(save_dir, full_name(unit), "{}({}~{}).csv".format(code, start, end))
     rst.to_csv(CSV_PATH, encoding='cp949', index=False)

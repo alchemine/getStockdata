@@ -5,9 +5,10 @@ from env import *
 from DataLoader import *
 
 parser = ArgumentParser(description='unit, start, end')
-parser.add_argument('--unit', type=str, default='T')         # 'D', 'm', 'T'
+parser.add_argument('--unit', type=str, default='T')          # 'D', 'm', 'T'
 parser.add_argument('--start', type=str, default='19000101')  # yyyymmdd
-parser.add_argument('--end', type=str, default='20200311')   # yyyymmdd
+parser.add_argument('--end', type=str, default='20200311')    # yyyymmdd
+parser.add_argument('--save_dir', type=str, default='D:/data/stock')
 
 
 if __name__ == "__main__":
@@ -60,4 +61,4 @@ if __name__ == "__main__":
                 last_end = param['end']
 
             param['start'], param['end'] = next_time(df, args.start)
-        merge_dataframes(df_list, code, param['unit'])
+        merge_dataframes(df_list, code, param['unit'], args.save_dir)
